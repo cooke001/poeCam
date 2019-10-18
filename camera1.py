@@ -31,8 +31,9 @@ function checkTime(i) {
 <body onload="startTime()">
 <h1>Camera 1</h1>
 <img src="stream.mjpg" width="640" height="480" />
-<dic = id="txt"></div>
-<script>
+<br>
+<div = id="txt"></div>
+
 </body>
 </html>
 """
