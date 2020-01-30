@@ -1,3 +1,5 @@
+<! code adapted from https://picamera.readthedocs.io/en/release-1.13/recipes1.html >
+
 import io
 import datetime as dt
 import picamera
@@ -10,7 +12,7 @@ PAGE="""\
 <html>
 <head>
 <title>UnderGRND - Camera 1</title>
-<script>
+<script> <! taken from: https://www.w3schools.com/js/tryit.asp?filename=tryjs_timing_clock>
 function startTime() {
     var today = new Date();
     var h = today.getHours();
